@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_add_account"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/drawer_login_height"
+    android:background="?attr/colorAccent"
+    android:padding="@dimen/spacing_major">
+
+    <ImageView
+        android:id="@+id/imageview_drawer_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:src="@drawable/ic_login" />
+
+    <TextView
+        android:id="@+id/imageview_drawer_title"
+        style="@style/Widget.Philm.Movie.Drawer.AddAccount"
+        android:textColor="?android:attr/textColorPrimaryInverse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="56dp"
+        android:text="@string/account_login" />
+
+</FrameLayout>
+
+
+

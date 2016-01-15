@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+          android:id="@+id/menu_mark_seen"
+          app:showAsAction="ifRoom"
+          android:icon="@drawable/ic_btn_seen"
+          android:title="@string/action_mark_seen"
+          android:visible="false"/>
+
+    <item
+          android:id="@+id/menu_add_collection"
+          app:showAsAction="ifRoom"
+          android:icon="@drawable/ic_action_collection"
+          android:title="@string/action_add_collection"
+          android:visible="false"/>
+
+    <item
+          android:id="@+id/menu_add_watchlist"
+          app:showAsAction="ifRoom"
+          android:icon="@drawable/ic_action_watchlist"
+          android:title="@string/action_add_watchlist"
+          android:visible="false"/>
+
+</menu>

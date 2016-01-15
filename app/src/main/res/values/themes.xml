@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="Platform.Theme.Philm" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowActionModeOverlay">true</item>
+    </style>
+
+    <style name="Platform.Theme.Philm.Dark" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowActionModeOverlay">true</item>
+    </style>
+
+    <style name="Base.Theme.Philm" parent="Platform.Theme.Philm">
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="Base.Theme.Philm.Dark" parent="Platform.Theme.Philm.Dark">
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="Theme.Philm" parent="Base.Theme.Philm">
+        <item name="android:textColorHighlight">@color/primary_color_translucent</item>
+
+        <item name="android:progressBarStyleHorizontal">@style/Widget.Philm.ProgressBar</item>
+        <item name="android:ratingBarStyle">@style/Widget.Philm.RatingBar</item>
+
+        <item name="grey_shade">@color/light_gray</item>
+
+        <item name="windowActionModeOverlay">true</item>
+
+        <item name="colorPrimary">@color/primary_color</item>
+        <item name="colorPrimaryDark">@color/primary_color_dark</item>
+        <item name="colorAccent">@color/accent_color</item>
+    </style>
+
+    <style name="Theme.Philm.Images" parent="Base.Theme.Philm.Dark">
+        <item name="android:windowBackground">@android:color/black</item>
+    </style>
+
+    <style name="Theme.Philm.Framed" parent="Theme.Philm">
+        <item name="windowActionBarOverlay">false</item>
+    </style>
+
+</resources>
